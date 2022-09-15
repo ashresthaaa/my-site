@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Euphoria Press</title>
+    <link href="style.css" rel='stylesheet'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="first">
+        <div class="one">
+         <ion-icon  name="logo-twitter" ></ion-icon> 
+         <ion-icon  name="logo-facebook"></ion-icon>
+         <ion-icon name="logo-instagram"></ion-icon>
+         </div>
+      <p class="two">Contact us: 01523456 | causeofmyeuphoria@gmail.com</p> 
+    </div>
+<div class=second>
+  <ion-icon class="logo" name="book"></ion-icon>
+  <div class="menu-bar">
+  <ul>
+    <li class="ser"><a href="#">Services</a>
+    <div class="sub-menu1">
+      
+        <a href="#">Home Delivery</a>
+        <a href="#">E-book</a>
+        <a href="#">Virtual Library</a>
+        
+      </div>
+    </li>
+
+    <li class="des"><a href="#">Buy</a>
+     <div class="sub-menu2">
+      
+        <a href="#">E-books</a>
+        <a href="#">Postcards</a>
+        <a href="#">Pay</a>
+       
+      </div>
+      
+    </li>
+    <li class="show"><a href="#"> Events</a>
+    <div class="sub-menu3">
+      
+        <a href="#">Podcast</a>
+        <a href="#">Book Auction</a>
+        
+      </div>
+    </li>
+    </ul>
+    </div>
+
+       <div class="bar">
+   <div class="search">
+ 
+   <label for="search"> </label>
+   <input type="text" name="book-name" id="search" minlength="1" maxlength="50" placeholder="Search">
+           </div>
+   <div class="go">
+           <input type="submit" value="Go"> 
+   </div>
+   </div>
+    </div>
+ 
+ <div class="header">
+   <h1>Euphoria Book <br>Press</h1>
+   <h2>“Books are good company, in sad times <br>and happy times, for books are people<br> – people who have managed to stay<br> alive by hiding between the covers of a book.”</h2>
+   </div>
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+      </body>
+  </html>
